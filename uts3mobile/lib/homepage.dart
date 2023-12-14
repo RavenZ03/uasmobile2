@@ -4,6 +4,7 @@ import 'package:flutter/material.dart';
 import 'package:uts3mobile/traintarif.dart';
 // import 'package:uts3mobile/pesantiket.dart';
 // import 'package:uts3mobile/trainpost.dart';
+import 'package:http/http.dart' as http;
 
 void main() {
   runApp(
@@ -37,7 +38,7 @@ class HomePage extends StatelessWidget {
             children: [
               Text("Made by love from :"),
               Text(
-                  "Bernardus Alvin Rig 202104560002, Pedro Manuel 202104560020, Rafael Christian 202104560007", // Gantilah "Nama Kelompok" dengan nama kelompok yang sesuai
+                  "Bernardus Alvin Rig 202104560002, Pedro 20210456, Rafael 20210456", // Gantilah "Nama Kelompok" dengan nama kelompok yang sesuai
                   style: TextStyle(
                     fontWeight: FontWeight.bold,
                   )),
